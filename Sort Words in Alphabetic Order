@@ -1,0 +1,17 @@
+# User input
+words = input("Enter your sentence: ")
+
+# Transform it into lowercase
+words = words.lower()
+
+# Split words into Python list
+words_list = words.split()
+
+# sort words_list
+words_list.sort()
+
+# join sorted_list into single string
+sorted_words = " ".join(words_list)
+
+print("Sorted words:")
+print(sorted_words)
